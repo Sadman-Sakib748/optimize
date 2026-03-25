@@ -240,7 +240,7 @@ export default function GrowthPlan() {
       </motion.div>
 
       {/* Cards */}
-      <div className="max-w-7xl mx-auto bg-[##0C0C0C] px-0 sm:px-4 py-8 sm:py-12">
+      <div className="max-w-7xl mx-auto bg-[#0C0C0C] px-0 sm:px-4 py-8 sm:py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           <AnimatePresence mode="wait">
             {plans.map((plan, index) => (
